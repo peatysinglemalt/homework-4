@@ -1,0 +1,17 @@
+body { 
+    font-family: 'Amatic SC', cursive;
+    line-height: 3;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#quizBody { 
+    text-align: center; 
+    padding: 10vh
+}
