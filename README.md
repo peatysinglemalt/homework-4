@@ -11,9 +11,7 @@ JavaScript, HTML, CSS
 - once a question is clicked, it moves to the next question 
 - if the question is answered incorrectly, the timer is reduced by 10 seconds 
 - when all the questions are answered, user is alerted of the number of questions answered correctly 
-- user is presented with an input box to add initials and log their name 
-- user is able to view high score on the nav bar 
-
+- user is presented with an input box to add initials and log their name and their score 
 
 ## Code Snippets With context as to why you are highlighting it (Do not highlight every line of code)
 Snippet of function start, and timer code 
@@ -40,8 +38,8 @@ function start() {
 
 ## Website
 
-[GitHub repository](https://peatysinglemalt.github.io/homework-3/)
-[Deployed Site] 
+[GitHub repository](https://github.com/peatysinglemalt/homework-4)
+[Deployed Site] (https://peatysinglemalt.github.io/homework-4/)
 
 ## Screenshots
 
