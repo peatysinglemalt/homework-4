@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,35 +9,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <title>Trivia Game</title>
-
 </head>
 
 <body>
-    <div id="nav"> 
-        <div class="left">
-            <a onclick="getScore()" href="#">
-                <h2>Your High Score</h2>
-            </a>
+
+    <body>
+        <div id="nav">
+            <div class="left">
+                <a onclick="getScore()" href="#">
+                    <h4>View Highscore</h4>
+                </a>
+            </div>
+            <div class="right">
+                <h4>Time: <span id="timeLeft">0</span></h4>
+            </div>
         </div>
 
-        <div class="right">
-            <h2>Time: <span id="timeLeft">0</span></h2>
-        </div> 
-    </div>
-
-    <div id="quiz"> 
-        <div id="quizBody">
-            <h1>Trivia Quiz</h1>
-            <h3>Test out your all-time favorite pop-culture and general trivia knowledge
-                within the time limit. 
-            </h3>
-            <h3>Keep in mind that incorrect answers will reduce your time
-                by ten seconds.
-            </h3>
-            <button oneclick="start()">Begin Trivia</button>
+        <div id="quiz">
+            <div id="quizBody">
+                <h1>
+                    Trivia Game
+                </h1>
+                <h3>Test out your all-time favorite pop-culture and general trivia knowledge
+                    within the time limit. 
+                </h3>
+                <h3>Keep in mind that incorrect answers will reduce your time
+                    by ten seconds.
+                </h3>
+                <button onclick="start()">Begin Trvia</button>
+            </div>
         </div>
-    </div>
-
-</body>
+    </body>
 
 </html>

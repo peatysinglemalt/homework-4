@@ -1,17 +1,63 @@
-body { 
-    font-family: 'Amatic SC', cursive;
-    line-height: 3;
+.right {
+    float: right;
+    font-size: 30px;
 }
 
 .left {
     float: left;
+    font-size: 30px;
 }
 
-.right {
-    float: right;
+.left a {
+    color: green;
 }
 
-#quizBody { 
-    text-align: center; 
-    padding: 10vh
+body {
+    font-family: 'Amatic SC', cursive;
+    line-height: 2;
+}
+
+#quizBody {
+    text-align: center;
+    padding: 20vh
+}
+
+h4 {
+    padding: 20px 14 px 20px 14px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+button {
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 14 px 20px 14px;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    margin: 4px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.answerButton {
+    margin: 0 auto;
+    display: block;
+    width: 160px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#quiz{
+    text-align: center;
 }
