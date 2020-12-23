@@ -38,7 +38,6 @@ function start() {
 
 ## Website
 
-[GitHub repository](https://github.com/peatysinglemalt/homework-4)
 [Deployed Site](https://peatysinglemalt.github.io/homework-4/)
 
 ## Screenshots
