@@ -1,3 +1,5 @@
+//questions to be asked 
+
 var trivia = [
     {   triviaQuestion: "When did the Cold War end?",
         choice: ["1973", "1989", "1992", "1985"],
@@ -25,11 +27,13 @@ var trivia = [
     }
 ];
 
+// set variables for score and timer 
 var score = 0;
 var currentQuestion = -1;
 var timeLeft = 0;
 var timer;
 
+//function to start timer 
 function start() {
     timeLeft = 60;
     document.getElementById("timeLeft").innerHTML = timeLeft;
@@ -46,6 +50,7 @@ function start() {
     next();
 }
 
+// function to move to next question 
 function next() {
     currentQuestion++;
 
@@ -70,6 +75,7 @@ function next() {
     document.getElementById("quizBody").innerHTML = quizContent;
 }
 
+// function to endgame 
 function endGame() {
     clearInterval(timer);
 
