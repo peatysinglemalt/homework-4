@@ -43,9 +43,8 @@ function start() {
 
 ## Screenshots
 
-![screenshot 1]
-![screenshot 2]
-![screenshot 3]
+![screenshot 1](https://github.com/peatysinglemalt/homework-4/blob/main/Assets/Screen%20Shot%202020-12-22%20at%2019.14.29.png)
+![screenshot 2](https://github.com/peatysinglemalt/homework-4/blob/main/Assets/Screen%20Shot%202020-12-22%20at%2019.14.40.png)
 
 # 04 Web APIs: Code Quiz
 
